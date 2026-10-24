@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk & Harga - Jagung Rebus Nusantara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-playfair { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+    
+    <header class="bg-emerald-800 text-white shadow-md">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6 md:px-12">
+            <div class="text-2xl font-playfair font-bold tracking-wide">
+                JAGUNG<span class="text-amber-400">.</span>
+            </div>
+            <ul class="flex gap-8 font-medium text-sm">
+                <li><a href="index.html" class="hover:text-amber-400 transition-colors">Profil Kami</a></li>
+                <li><a href="produk.html" class="text-amber-400 border-b-2 border-amber-400 pb-1">Katalog & Harga</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="py-16 px-6 md:px-12 max-w-7xl mx-auto">
+        <!-- Judul Halaman -->
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-playfair font-bold text-slate-800 mb-4">Katalog & Daftar Harga B2B</h1>
+            <div class="h-1 w-24 bg-emerald-600 mx-auto rounded-full"></div>
+            <p class="mt-4 text-slate-600">Pilihan varian terbaik untuk bisnis kuliner Anda.</p>
+        </div>
+
+        <!-- Tag Semantic: TABLE (Memenuhi Syarat UTS: Tabel Data Harga) -->
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 mb-16 overflow-x-auto">
+            <h2 class="text-2xl font-playfair font-bold mb-6 text-emerald-800">Tabel Harga Grosir (Minimum Order 50 Pcs)</h2>
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-emerald-50 text-emerald-900 border-b-2 border-emerald-200">
+                        <th class="py-4 px-6 font-bold">Kode Barang</th>
+                        <th class="py-4 px-6 font-bold">Varian Rasa</th>
+                        <th class="py-4 px-6 font-bold">Kemasan</th>
+                        <th class="py-4 px-6 font-bold">Harga Satuan (Rp)</th>
+                        <th class="py-4 px-6 font-bold">Status Stok</th>
+                    </tr>
+                </thead>
+                <tbody class="text-slate-600">
+                    <tr class="border-b border-slate-100 hover:bg-slate-50">
+                        <td class="py-4 px-6 font-mono text-sm">JRN-ORG-01</td>
+                        <td class="py-4 px-6 font-medium text-slate-800">Original Sweetness</td>
+                        <td class="py-4 px-6">Vacuum Pack 250gr</td>
+                        <td class="py-4 px-6">Rp 12.500</td>
+                        <td class="py-4 px-6"><span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-bold">Tersedia</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-100 hover:bg-slate-50">
+                        <td class="py-4 px-6 font-mono text-sm">JRN-TRF-02</td>
+                        <td class="py-4 px-6 font-medium text-slate-800">Truffle & Cheese</td>
+                        <td class="py-4 px-6">Vacuum Pack 300gr</td>
+                        <td class="py-4 px-6">Rp 18.000</td>
+                        <td class="py-4 px-6"><span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-bold">Tersedia</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-100 hover:bg-slate-50">
+                        <td class="py-4 px-6 font-mono text-sm">JRN-SPC-03</td>
+                        <td class="py-4 px-6 font-medium text-slate-800">Spicy Smoked</td>
+                        <td class="py-4 px-6">Foil Pack 250gr</td>
+                        <td class="py-4 px-6">Rp 15.000</td>
+                        <td class="py-4 px-6"><span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs font-bold">Pre-Order 2 Hari</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-300 py-8 text-center text-sm border-t border-slate-800">
+        <p>© 2026 Jagung Rebus Nusantara. UTS Pemrograman Web.</p>
+    </footer>
+
+</body>
+</html>
